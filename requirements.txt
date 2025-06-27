@@ -8,3 +8,47 @@ duckduckgo-search
 langchain_community
 requests
 python-dotenv
+fastapi
+uvicorn
+
+# Зависимости для Telegram-бота
+python-telegram-bot==13.15
+feedparser==6.0.10
+translate==3.6.1
+schedule==1.2.0
+
+# Зависимости для системы мониторинга безопасности
+opencv-python
+numpy
+imutils
+
+# Зависимости для интеграции с Google Calendar
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# Зависимости для подкастов и новостей
+podcastparser
+pydub
+pygame
+
+# Зависимости для управления задачами
+trello
+todoist-python
+
+# Зависимости для мониторинга цен
+beautifulsoup4
+lxml
+selenium
+webdriver-manager
+
+# Зависимости для распознавания музыки
+shazamio
+pydub
+
+# Добавьте сюда все используемые библиотеки, например:
+fastapi
+uvicorn
+python-dotenv
+requests
+# ...и другие, которые использует ваш проект...

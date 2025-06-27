@@ -16,13 +16,13 @@ class Assistant(Agent):
         super().__init__(
             instructions=AGENT_INSTRUCTION,
             llm=google.beta.realtime.RealtimeModel(
-            voice="Aoede",
+            voice="Charon",
             temperature=0.8,
         ),
             tools=[
                 get_weather,
                 search_web,
-                send_email
+                send_email,
             ],
 
         )
